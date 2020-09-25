@@ -3,10 +3,10 @@ use Mix.Config
 config :logger, handle_otp_reports: false
 
 config :argos_workers, ArgosWorkers.Repo,
-  database: "argos",
-  username: "regim",
-  password: "regim2203",
-  hostname: "database-1.caocwyg4eada.us-east-1.rds.amazonaws.com"
+  database: "test",
+  username: "test",
+  password: "test",
+  hostname: "localhost"
 
 config :postgrex, :json_library, Poison
 
