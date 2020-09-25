@@ -1,0 +1,863 @@
+2020-09-24 00:01:31.840 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 00:01:31.856 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 00:01:31.859 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 00:01:31.860 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 00:01:31.865 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 00:01:31.866 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 00:01:31.884 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 00:01:31.884 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 00:01:31.890 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 00:01:31.892 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 00:01:31.895 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 00:01:31.899 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 00:01:31.901 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 00:01:31.901 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 00:01:31.904 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 00:01:31.905 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 00:01:31.911 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 00:01:31.921 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 00:01:31.926 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 00:01:31.929 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 00:01:31.930 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 00:01:32.007 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 00:01:32.007 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 00:01:32.056 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 00:01:32.142 [error] <0.376.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_6' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.684.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.710.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.142 [error] <0.372.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_2' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.689.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.706.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.142 [error] <0.377.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_7' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.687.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.705.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.371.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_1' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.685.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.702.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.373.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_3' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.681.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.701.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.375.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_5' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.686.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.703.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.378.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_8' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.682.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.709.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.370.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_0' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.683.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.708.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.379.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_9' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.688.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.704.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.143 [error] <0.374.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_4' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.690.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.707.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.159 [error] <0.371.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_1' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.685.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.702.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.161 [error] <0.377.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_7' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.687.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.705.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.161 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_1' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 1, [{name,'Elixir.Worker.Watcher.Broadway.Producer_1'},{hibernate_after,15000}]) at <0.371.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.685.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.702.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.161 [error] <0.372.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_2' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.689.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.706.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.161 [error] <0.378.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_8' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.682.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.709.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.161 [error] <0.374.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_4' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.690.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.707.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.161 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_7' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 7, [{name,'Elixir.Worker.Watcher.Broadway.Producer_7'},{hibernate_after,15000}]) at <0.377.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.687.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.705.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.162 [error] <0.375.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_5' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.686.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.703.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.162 [error] <0.373.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_3' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.681.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.701.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.162 [error] <0.370.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_0' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.683.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.708.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.162 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_2' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 2, [{name,'Elixir.Worker.Watcher.Broadway.Producer_2'},{hibernate_after,15000}]) at <0.372.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.689.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.706.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.162 [error] <0.379.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_9' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.688.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.704.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.163 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_8' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 8, [{name,'Elixir.Worker.Watcher.Broadway.Producer_8'},{hibernate_after,15000}]) at <0.378.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.682.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.709.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.163 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_4' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 4, [{name,'Elixir.Worker.Watcher.Broadway.Producer_4'},{hibernate_after,15000}]) at <0.374.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.690.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.707.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.163 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_3' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 3, [{name,'Elixir.Worker.Watcher.Broadway.Producer_3'},{hibernate_after,15000}]) at <0.373.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.681.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.701.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.164 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_5' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 5, [{name,'Elixir.Worker.Watcher.Broadway.Producer_5'},{hibernate_after,15000}]) at <0.375.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.686.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.703.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.164 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_0' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 0, [{name,'Elixir.Worker.Watcher.Broadway.Producer_0'},{hibernate_after,15000}]) at <0.370.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.683.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.708.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.164 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_9' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 9, [{name,'Elixir.Worker.Watcher.Broadway.Producer_9'},{hibernate_after,15000}]) at <0.379.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.688.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.704.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.165 [error] <0.376.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_6' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.684.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.710.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.166 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_6' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 6, [{name,'Elixir.Worker.Watcher.Broadway.Producer_6'},{hibernate_after,15000}]) at <0.376.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.684.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.710.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.186 [error] <0.720.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_5' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.832.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.849.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.488 [error] <0.724.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_9' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.823.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.848.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.488 [error] <0.724.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_9' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.823.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.848.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.489 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_9' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 9, [{name,'Elixir.Worker.Watcher.Broadway.Producer_9'},{hibernate_after,15000}]) at <0.724.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.823.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.848.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.489 [error] <0.713.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_2' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.819.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.847.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.489 [error] <0.714.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_8' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.813.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.845.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.489 [error] <0.711.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_1' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.814.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.846.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.490 [error] <0.717.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_4' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.835.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.850.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.490 [error] <0.713.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_2' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.819.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.847.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.490 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_2' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 2, [{name,'Elixir.Worker.Watcher.Broadway.Producer_2'},{hibernate_after,15000}]) at <0.713.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.819.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.847.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.490 [error] <0.714.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_8' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.813.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.845.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.491 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_8' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 8, [{name,'Elixir.Worker.Watcher.Broadway.Producer_8'},{hibernate_after,15000}]) at <0.714.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.813.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.845.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.491 [error] <0.717.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_4' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.835.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.850.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.491 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_4' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 4, [{name,'Elixir.Worker.Watcher.Broadway.Producer_4'},{hibernate_after,15000}]) at <0.717.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.835.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.850.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.491 [error] <0.720.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_5' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.832.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.849.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:32.491 [error] <0.369.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_5' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 5, [{name,'Elixir.Worker.Watcher.Broadway.Producer_5'},{hibernate_after,15000}]) at <0.720.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.832.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.849.0>},60000]}} in context child_terminated
+2020-09-24 00:01:32.492 [error] <0.722.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_0' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.842.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.852.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.000 [warning] <0.272.0> lager_error_logger_h dropped 5178 messages in the last second that exceeded the limit of 50 messages/sec
+2020-09-24 00:01:33.001 [error] <0.5869.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_0' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.5984.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.5988.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.002 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_0' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 0, [{name,'Elixir.Worker.Watcher.Broadway.Producer_0'},{hibernate_after,15000}]) at <0.5869.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.5984.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.5988.0>},60000]}} in context child_terminated
+2020-09-24 00:01:33.014 [error] <0.5946.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_3' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6071.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6095.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.014 [error] <0.5972.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_9' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6077.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6097.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.014 [error] <0.5967.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_7' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6067.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6099.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.015 [error] <0.6005.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_6' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6083.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6098.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.015 [error] <0.5946.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_3' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6071.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6095.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.015 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_3' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 3, [{name,'Elixir.Worker.Watcher.Broadway.Producer_3'},{hibernate_after,15000}]) at <0.5946.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6071.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6095.0>},60000]}} in context child_terminated
+2020-09-24 00:01:33.016 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_3' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 3, [{name,'Elixir.Worker.Watcher.Broadway.Producer_3'},{hibernate_after,15000}]) at <0.5946.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 00:01:33.016 [error] <0.5972.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_9' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6077.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6097.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.016 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_9' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 9, [{name,'Elixir.Worker.Watcher.Broadway.Producer_9'},{hibernate_after,15000}]) at <0.5972.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6077.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6097.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.016 [error] <0.6005.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_6' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6083.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6098.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.016 [error] <0.5967.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_7' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6067.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6099.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.019 [error] <0.5970.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_5' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6089.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6109.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.020 [error] <0.5996.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_2' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6084.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6103.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.020 [error] <0.5947.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_4' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6068.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6102.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.021 [error] <0.5963.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_8' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6061.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6101.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.022 [error] <0.5962.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_1' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6092.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6107.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.022 [error] <0.5996.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_2' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6084.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6103.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.023 [error] <0.5963.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_8' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6061.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6101.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.023 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_8' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 8, [{name,'Elixir.Worker.Watcher.Broadway.Producer_8'},{hibernate_after,15000}]) at <0.5963.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6061.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6101.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.023 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_7' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 7, [{name,'Elixir.Worker.Watcher.Broadway.Producer_7'},{hibernate_after,15000}]) at <0.5967.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6067.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6099.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.023 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_6' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 6, [{name,'Elixir.Worker.Watcher.Broadway.Producer_6'},{hibernate_after,15000}]) at <0.6005.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6083.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6098.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.023 [error] <0.5947.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_4' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6068.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6102.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.023 [error] <0.5962.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_1' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6092.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6107.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.024 [error] <0.5970.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_5' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6089.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6109.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.024 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_5' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 5, [{name,'Elixir.Worker.Watcher.Broadway.Producer_5'},{hibernate_after,15000}]) at <0.5970.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6089.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6109.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.024 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_4' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 4, [{name,'Elixir.Worker.Watcher.Broadway.Producer_4'},{hibernate_after,15000}]) at <0.5947.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6068.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6102.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.024 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_2' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 2, [{name,'Elixir.Worker.Watcher.Broadway.Producer_2'},{hibernate_after,15000}]) at <0.5996.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6084.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6103.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.024 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_1' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 1, [{name,'Elixir.Worker.Watcher.Broadway.Producer_1'},{hibernate_after,15000}]) at <0.5962.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6092.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6107.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.025 [error] <0.6036.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_0' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6106.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6110.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.025 [error] <0.6036.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_0' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6106.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6110.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.025 [error] <0.5474.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_0' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 0, [{name,'Elixir.Worker.Watcher.Broadway.Producer_0'},{hibernate_after,15000}]) at <0.6036.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6106.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6110.0>},60000]}} in context shutdown_error
+2020-09-24 00:01:33.025 [error] <0.5473.0> Supervisor 'Elixir.Worker.Watcher.Broadway.Supervisor' had child #Ref<0.2840247403.2066743297.71331> started with 'Elixir.Supervisor':start_link([#{id => 'Elixir.Worker.Watcher.Broadway.Producer_0',shutdown => 30000,start => {'Elixir.Broadway.Topology.ProducerStage',...}},...], [{name,'Elixir.Worker.Watcher.Broadway.ProducerSupervisor'},{strategy,one_for_one},{max_restarts,...},...]) at <0.5474.0> exit with reason shutdown in context child_terminated
+2020-09-24 00:01:33.056 [error] <0.6113.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_1' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6299.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6362.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.398 [error] <0.6119.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_4' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6297.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6383.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.399 [error] <0.6122.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_7' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6335.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6402.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.399 [error] <0.6112.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_0' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6339.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6396.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.399 [error] <0.6113.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_1' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6299.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6362.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.399 [error] <0.6117.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_3' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6374.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6413.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.400 [error] <0.6120.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_5' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6323.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6404.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.400 [error] <0.6111.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_1' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 1, [{name,'Elixir.Worker.Watcher.Broadway.Producer_1'},{hibernate_after,15000}]) at <0.6113.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6299.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6362.0>},60000]}} in context child_terminated
+2020-09-24 00:01:33.400 [error] <0.6119.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_4' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6297.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6383.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.400 [error] <0.6116.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_2' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6363.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6419.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.400 [error] <0.6125.0> gen_server 'Elixir.Worker.Watcher.Broadway.Producer_8' terminated with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6373.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6424.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.401 [error] <0.6111.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_4' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 4, [{name,'Elixir.Worker.Watcher.Broadway.Producer_4'},{hibernate_after,15000}]) at <0.6119.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6297.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6383.0>},60000]}} in context child_terminated
+2020-09-24 00:01:33.401 [error] <0.6117.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_3' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6374.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6413.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.401 [error] <0.6120.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_5' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6323.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6404.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.401 [error] <0.6112.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_0' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6339.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6396.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.401 [error] <0.6122.0> CRASH REPORT Process 'Elixir.Worker.Watcher.Broadway.Producer_7' with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6335.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6402.0>},60000]}} in gen_server:call/3 line 246
+2020-09-24 00:01:33.402 [error] <0.6111.0> Supervisor 'Elixir.Worker.Watcher.Broadway.ProducerSupervisor' had child 'Elixir.Worker.Watcher.Broadway.Producer_3' started with 'Elixir.Broadway.Topology.ProducerStage':start_link([{broadway,[{hibernate_after,15000},{context,context_not_set},{resubscribe_interval,100},{max_seconds,...},...]},...], 3, [{name,'Elixir.Worker.Watcher.Broadway.Producer_3'},{hibernate_after,15000}]) at <0.6117.0> exit with reason {{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no queue 'watcher' in vhost '/'">>}},{gen_server,call,[<0.6374.0>,{subscribe,{'basic.consume',0,<<"watcher">>,<<>>,false,false,false,false,[]},<0.6413.0>},60000]}} in context child_terminated
+2020-09-24 00:02:54.966 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 00:02:54.977 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 00:02:54.980 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 00:02:54.981 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 00:02:54.985 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 00:02:54.986 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 00:02:55.006 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 00:02:55.006 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 00:02:55.011 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 00:02:55.013 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 00:02:55.016 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 00:02:55.020 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 00:02:55.022 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 00:02:55.022 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 00:02:55.025 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 00:02:55.026 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 00:02:55.032 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 00:02:55.039 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 00:02:55.042 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 00:02:55.044 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 00:02:55.046 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 00:02:55.098 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 00:02:55.099 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 00:02:55.142 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 07:25:48.438 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 07:25:48.454 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 07:25:48.458 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 07:25:48.459 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 07:25:48.465 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 07:25:48.467 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 07:25:48.486 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 07:25:48.486 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 07:25:48.492 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 07:25:48.493 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 07:25:48.497 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 07:25:48.501 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 07:25:48.503 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 07:25:48.503 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 07:25:48.505 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 07:25:48.506 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 07:25:48.512 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 07:25:48.519 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 07:25:48.523 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 07:25:48.526 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 07:25:48.527 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 07:25:48.593 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 07:25:48.593 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 07:25:48.635 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 07:28:58.253 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 07:28:58.266 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 07:28:58.270 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 07:28:58.271 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 07:28:58.275 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 07:28:58.277 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 07:28:58.299 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 07:28:58.299 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 07:28:58.305 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 07:28:58.306 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 07:28:58.310 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 07:28:58.314 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 07:28:58.316 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 07:28:58.316 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 07:28:58.318 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 07:28:58.320 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 07:28:58.327 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 07:28:58.334 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 07:28:58.337 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 07:28:58.340 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 07:28:58.341 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 07:28:58.402 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 07:28:58.402 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 07:28:58.443 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 07:54:49.229 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 07:54:49.241 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 07:54:49.244 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 07:54:49.245 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 07:54:49.249 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 07:54:49.250 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 07:54:49.267 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 07:54:49.268 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 07:54:49.273 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 07:54:49.274 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 07:54:49.277 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 07:54:49.282 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 07:54:49.283 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 07:54:49.284 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 07:54:49.286 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 07:54:49.287 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 07:54:49.293 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 07:54:49.300 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 07:54:49.302 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 07:54:49.306 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 07:54:49.307 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 07:54:49.379 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 07:54:49.379 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 07:54:49.419 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 07:55:27.166 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 07:55:27.181 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 07:55:27.185 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 07:55:27.186 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 07:55:27.191 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 07:55:27.193 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 07:55:27.212 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 07:55:27.212 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 07:55:27.218 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 07:55:27.219 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 07:55:27.223 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 07:55:27.227 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 07:55:27.229 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 07:55:27.229 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 07:55:27.232 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 07:55:27.233 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 07:55:27.239 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 07:55:27.246 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 07:55:27.249 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 07:55:27.252 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 07:55:27.253 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 07:55:27.309 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 07:55:27.309 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 07:55:27.372 [error] <0.381.0>@rabbit_binary_generator:table_field_to_binary:110 CRASH REPORT Process <0.381.0> with 0 neighbours crashed with reason: no function clause matching rabbit_binary_generator:table_field_to_binary({'x-delayed-type',<<"direct">>}) line 110
+2020-09-24 07:55:27.372 [error] <0.378.0>@rabbit_binary_generator:table_field_to_binary:110 Supervisor {<0.378.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.7>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.380.0>, {<<"client 127.0.0.1:41569 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.381.0> exit with reason no function clause matching rabbit_binary_generator:table_field_to_binary({'x-delayed-type',<<"direct">>}) line 110 in context child_terminated
+2020-09-24 07:57:59.496 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 07:57:59.507 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 07:57:59.511 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 07:57:59.513 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 07:57:59.517 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 07:57:59.518 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 07:57:59.536 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 07:57:59.536 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 07:57:59.542 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 07:57:59.544 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 07:57:59.547 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 07:57:59.550 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 07:57:59.552 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 07:57:59.552 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 07:57:59.554 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 07:57:59.555 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 07:57:59.561 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 07:57:59.568 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 07:57:59.570 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 07:57:59.573 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 07:57:59.574 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 07:57:59.628 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 07:57:59.628 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 07:57:59.733 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:00:24.594 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:00:24.605 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:00:24.607 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:00:24.608 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:00:24.612 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:00:24.614 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:00:24.634 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:00:24.634 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:00:24.640 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:00:24.642 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:00:24.647 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:00:24.651 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:00:24.653 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:00:24.653 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:00:24.655 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:00:24.657 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:00:24.663 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:00:24.670 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:00:24.674 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:00:24.677 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:00:24.679 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:00:24.738 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:00:24.738 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:00:24.845 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:02:05.046 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:02:05.059 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:02:05.062 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:02:05.063 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:02:05.067 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:02:05.069 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:02:05.087 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:02:05.087 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:02:05.093 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:02:05.095 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:02:05.098 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:02:05.102 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:02:05.105 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:02:05.105 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:02:05.107 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:02:05.109 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:02:05.116 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:02:05.125 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:02:05.128 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:02:05.131 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:02:05.132 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:02:05.211 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:02:05.212 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:02:05.326 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:06:45.566 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:06:45.578 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:06:45.581 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:06:45.583 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:06:45.587 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:06:45.588 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:06:45.608 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:06:45.608 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:06:45.616 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:06:45.619 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:06:45.623 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:06:45.632 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:06:45.636 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:06:45.636 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:06:45.640 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:06:45.642 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:06:45.651 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:06:45.660 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:06:45.664 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:06:45.668 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:06:45.670 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:06:45.729 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:06:45.729 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:06:45.816 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:07:47.329 [warning] <0.389.0> Connection (<0.389.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-09-24 08:07:47.329 [error] <0.390.0> Supervisor {<0.390.0>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.389.0>, <<"client 127.0.0.1:50593 -> 127.0.0.1:5672">>) at undefined exit with reason shutdown in context shutdown_error
+2020-09-24 08:31:53.260 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:31:53.272 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:31:53.275 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:31:53.276 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:31:53.280 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:31:53.281 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:31:53.299 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:31:53.299 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:31:53.305 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:31:53.306 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:31:53.310 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:31:53.314 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:31:53.316 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:31:53.316 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:31:53.318 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:31:53.319 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:31:53.325 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:31:53.331 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:31:53.333 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:31:53.336 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:31:53.337 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:31:53.391 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:31:53.391 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:31:53.505 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:33:36.567 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:33:36.577 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:33:36.580 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:33:36.581 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:33:36.586 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:33:36.587 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:33:36.606 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:33:36.606 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:33:36.612 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:33:36.614 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:33:36.617 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:33:36.621 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:33:36.623 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:33:36.623 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:33:36.626 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:33:36.627 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:33:36.633 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:33:36.640 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:33:36.643 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:33:36.646 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:33:36.647 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:33:36.703 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:33:36.704 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:33:36.830 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:33:37.578 [error] <0.593.0> gen_server <0.593.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.395.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:37.579 [error] <0.593.0> CRASH REPORT Process <0.593.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.395.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:37.579 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,5} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,5},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.3931601110.3220570113.209438>) at <0.593.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.395.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:37.784 [error] <0.592.0> gen_server <0.592.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.396.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:37.784 [error] <0.592.0> CRASH REPORT Process <0.592.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.396.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:37.784 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,4} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,4},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.3931601110.3220570113.209438>) at <0.592.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.396.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:37.986 [error] <0.590.0> gen_server <0.590.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.397.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:37.986 [error] <0.590.0> CRASH REPORT Process <0.590.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.397.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:37.986 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,2} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,2},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.3931601110.3220570113.209438>) at <0.590.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.397.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:38.187 [error] <0.595.0> gen_server <0.595.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.398.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:38.188 [error] <0.595.0> CRASH REPORT Process <0.595.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.398.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:38.188 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,7} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,7},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.3931601110.3220570113.209438>) at <0.595.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.398.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:38.188 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,7} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,7},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.3931601110.3220570113.209438>) at <0.595.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:33:38.188 [error] <0.586.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.3931601110.3220570113.209437>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.587.0> exit with reason killed in context child_terminated
+2020-09-24 08:33:38.188 [error] <0.586.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.3931601110.3220570113.209437>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.587.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:33:38.189 [error] <0.366.0> Supervisor 'Elixir.ArgosWorkers.Supervisor' had child 'Elixir.ArgosWorkers.Repo' started with 'Elixir.ArgosWorkers.Repo':start_link([]) at <0.586.0> exit with reason shutdown in context child_terminated
+2020-09-24 08:33:38.692 [error] <0.616.0> gen_server <0.616.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.399.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:38.693 [error] <0.616.0> CRASH REPORT Process <0.616.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.399.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:38.693 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,7} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,7},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.3931601110.3220570114.207054>) at <0.616.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.399.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:38.893 [error] <0.614.0> gen_server <0.614.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.400.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:38.894 [error] <0.614.0> CRASH REPORT Process <0.614.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.400.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:38.894 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,5} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,5},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.3931601110.3220570114.207054>) at <0.614.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.400.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:39.097 [error] <0.613.0> gen_server <0.613.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.401.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:39.097 [error] <0.613.0> CRASH REPORT Process <0.613.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.401.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:39.097 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,4} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,4},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.3931601110.3220570114.207054>) at <0.613.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.401.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:39.298 [error] <0.617.0> gen_server <0.617.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.402.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:39.298 [error] <0.617.0> CRASH REPORT Process <0.617.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.402.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:39.298 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,8} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,8},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.3931601110.3220570114.207054>) at <0.617.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.402.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:33:39.298 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,8} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,8},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.3931601110.3220570114.207054>) at <0.617.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:33:39.299 [error] <0.607.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.3931601110.3220570114.207053>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.608.0> exit with reason killed in context child_terminated
+2020-09-24 08:33:39.299 [error] <0.607.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.3931601110.3220570114.207053>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.608.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:33:39.299 [error] <0.366.0> Supervisor 'Elixir.ArgosWorkers.Supervisor' had child 'Elixir.ArgosWorkers.Repo' started with 'Elixir.ArgosWorkers.Repo':start_link([]) at <0.607.0> exit with reason shutdown in context child_terminated
+2020-09-24 08:33:39.801 [error] <0.635.0> gen_server <0.635.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.403.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:33:39.801 [error] <0.635.0> CRASH REPORT Process <0.635.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.403.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:33:39.801 [error] <0.625.0> Supervisor {<0.625.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.624.0>,10} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,10},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.624.0>, #Ref<0.3931601110.3220570121.207629>) at <0.635.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.403.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:34:19.769 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:34:19.781 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:34:19.784 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:34:19.785 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:34:19.789 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:34:19.790 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:34:19.810 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:34:19.810 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:34:19.816 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:34:19.818 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:34:19.822 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:34:19.826 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:34:19.829 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:34:19.830 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:34:19.832 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:34:19.834 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:34:19.842 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:34:19.853 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:34:19.856 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:34:19.860 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:34:19.861 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:34:19.921 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:34:19.921 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:34:20.045 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:36:05.051 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:36:05.065 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:36:05.068 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:36:05.070 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:36:05.074 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:36:05.075 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:36:05.095 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:36:05.095 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:36:05.101 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:36:05.103 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:36:05.107 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:36:05.111 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:36:05.114 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:36:05.114 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:36:05.116 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:36:05.118 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:36:05.124 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:36:05.132 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:36:05.135 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:36:05.139 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:36:05.140 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:36:05.199 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:36:05.199 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:36:05.350 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:36:06.091 [error] <0.598.0> gen_server <0.598.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.391.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:06.092 [error] <0.598.0> CRASH REPORT Process <0.598.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.391.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:06.092 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,10} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,10},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.911316134.267780105.46308>) at <0.598.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.391.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:06.298 [error] <0.591.0> gen_server <0.591.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.393.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:06.298 [error] <0.591.0> CRASH REPORT Process <0.591.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.393.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:06.299 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,3} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,3},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.911316134.267780105.46308>) at <0.591.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.393.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:06.501 [error] <0.596.0> gen_server <0.596.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.394.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:06.501 [error] <0.596.0> CRASH REPORT Process <0.596.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.394.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:06.501 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,8} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,8},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.911316134.267780105.46308>) at <0.596.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.394.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:06.705 [error] <0.593.0> gen_server <0.593.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.396.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:06.705 [error] <0.593.0> CRASH REPORT Process <0.593.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.396.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:06.705 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,5} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,5},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.911316134.267780105.46308>) at <0.593.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.396.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:06.705 [error] <0.588.0> Supervisor {<0.588.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.587.0>,5} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,5},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.587.0>, #Ref<0.911316134.267780105.46308>) at <0.593.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:36:06.705 [error] <0.585.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.911316134.267780105.46307>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.587.0> exit with reason killed in context child_terminated
+2020-09-24 08:36:06.706 [error] <0.585.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.911316134.267780105.46307>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.587.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:36:06.706 [error] <0.366.0> Supervisor 'Elixir.ArgosWorkers.Supervisor' had child 'Elixir.ArgosWorkers.Repo' started with 'Elixir.ArgosWorkers.Repo':start_link([]) at <0.585.0> exit with reason shutdown in context child_terminated
+2020-09-24 08:36:07.207 [error] <0.612.0> gen_server <0.612.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.397.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:07.207 [error] <0.612.0> CRASH REPORT Process <0.612.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.397.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:07.208 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,3} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,3},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.612.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.397.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:07.408 [error] <0.618.0> gen_server <0.618.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.399.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:07.408 [error] <0.618.0> CRASH REPORT Process <0.618.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.399.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:07.409 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,9} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,9},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.618.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.399.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:07.611 [error] <0.619.0> gen_server <0.619.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.401.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:07.611 [error] <0.619.0> CRASH REPORT Process <0.619.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.401.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:07.612 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,10} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,10},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.619.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.401.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:40.469 [error] <0.389.0> gen_server <0.389.0> terminated with reason: socket_closed_unexpectedly
+2020-09-24 08:36:40.469 [error] <0.389.0> CRASH REPORT Process <0.389.0> with 0 neighbours exited with reason: socket_closed_unexpectedly in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:40.469 [error] <0.387.0> Supervisor {<0.387.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.388.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.389.0> exit with reason socket_closed_unexpectedly in context child_terminated
+2020-09-24 08:36:40.469 [error] <0.387.0> Supervisor {<0.387.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.388.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.389.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:36:40.682 [error] <0.621.0> gen_server <0.621.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.403.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:40.683 [error] <0.621.0> CRASH REPORT Process <0.621.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.403.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:40.683 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,9} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,9},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.621.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.403.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:40.885 [error] <0.615.0> gen_server <0.615.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.404.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:40.885 [error] <0.615.0> CRASH REPORT Process <0.615.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.404.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:40.885 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,6} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,6},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.615.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.404.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:41.086 [error] <0.620.0> gen_server <0.620.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.405.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:41.086 [error] <0.620.0> CRASH REPORT Process <0.620.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.405.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:41.086 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,3} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,3},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.620.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.405.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:41.289 [error] <0.616.0> gen_server <0.616.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.406.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168
+2020-09-24 08:36:41.289 [error] <0.616.0> CRASH REPORT Process <0.616.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.406.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in gen_server:handle_common_reply/8 line 796
+2020-09-24 08:36:41.289 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,7} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,7},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.616.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.DBConnection.ConnectionError',message => <<"client #PID<0.406.0> stopped: ** (UndefinedFunctionError) function Jason.decode!/1 is undefined (module Jason is not available)\n    Jason.decode!(\"[{\\\"id\\\": 4}, {\\\"id\\\": 5}]\")\n    (postgrex 0.15.6) lib/postgrex/type_module.ex:897: Postgrex.DefaultTypes.\"Elixir.Postgrex.Extensions.JSONB\"/6\n    (postgrex 0.15.6) lib/postgrex/protocol.ex:2870: Postgrex.Protocol.rows_recv/4\n    (postgrex 0.15.6) lib/post...">>,...} in 'Elixir.DBConnection.Connection':handle_cast/2 line 168 in context child_terminated
+2020-09-24 08:36:41.290 [error] <0.609.0> Supervisor {<0.609.0>,'Elixir.DBConnection.ConnectionPool.Pool'} had child {'Elixir.Postgrex.Protocol',<0.608.0>,7} started with 'Elixir.DBConnection.Connection':start_link('Elixir.Postgrex.Protocol', [{pool_index,7},{types,'Elixir.Postgrex.DefaultTypes'},{port,5432},{repo,'Elixir.ArgosWorkers.Repo'},...], <0.608.0>, #Ref<0.911316134.267780097.48746>) at <0.616.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:36:41.290 [error] <0.607.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.911316134.267780097.48745>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.608.0> exit with reason killed in context child_terminated
+2020-09-24 08:36:41.290 [error] <0.607.0> Supervisor 'Elixir.ArgosWorkers.Repo' had child 'Elixir.DBConnection.ConnectionPool' started with 'Elixir.Ecto.Repo.Supervisor':start_child({'Elixir.DBConnection.ConnectionPool',start_link,[{'Elixir.Postgrex.Protocol',[{types,'Elixir.Postgrex.DefaultTypes'},...]}]}, 'Elixir.Ecto.Adapters.Postgres', #{cache => #Ref<0.911316134.267780097.48745>,opts => [{timeout,15000},{pool_size,10},{pool,'Elixir.DBConnection.ConnectionPool'}],...}) at <0.608.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-09-24 08:36:41.290 [error] <0.366.0> Supervisor 'Elixir.ArgosWorkers.Supervisor' had child 'Elixir.ArgosWorkers.Repo' started with 'Elixir.ArgosWorkers.Repo':start_link([]) at <0.607.0> exit with reason shutdown in context child_terminated
+2020-09-24 08:36:53.172 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:36:53.186 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:36:53.188 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:36:53.189 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:36:53.194 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:36:53.195 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:36:53.211 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:36:53.211 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:36:53.218 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:36:53.219 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:36:53.222 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:36:53.227 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:36:53.229 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:36:53.229 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:36:53.231 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:36:53.233 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:36:53.239 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:36:53.244 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:36:53.247 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:36:53.250 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:36:53.251 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:36:53.305 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:36:53.305 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:36:53.418 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:39:58.305 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:39:58.317 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:39:58.320 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:39:58.321 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:39:58.325 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:39:58.326 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:39:58.345 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:39:58.345 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:39:58.351 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:39:58.352 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:39:58.356 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:39:58.360 [info] <0.44.0> Application telemetry started on node nonode@nohost
+2020-09-24 08:39:58.362 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:39:58.362 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:39:58.365 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:39:58.366 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:39:58.372 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:39:58.379 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:39:58.382 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:39:58.386 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:39:58.387 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:39:58.443 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:39:58.443 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:39:58.580 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:50:17.257 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:50:17.268 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:50:17.271 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:50:17.272 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:50:17.276 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:50:17.278 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:50:17.297 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:50:17.298 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:50:17.303 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:50:17.305 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:50:17.308 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:50:17.310 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:50:17.310 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:50:17.312 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:50:17.314 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:50:17.320 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:50:17.328 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:50:17.331 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:50:17.334 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:50:17.335 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:50:17.388 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:50:17.388 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:50:55.850 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:50:55.868 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:50:55.871 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:50:55.873 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:50:55.879 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:50:55.881 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:50:55.912 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:50:55.912 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:50:55.919 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:50:55.923 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:50:55.927 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:50:55.930 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:50:55.930 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:50:55.932 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:50:55.933 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:50:55.943 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:50:55.957 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:50:55.961 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:50:55.964 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:50:55.966 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:50:56.067 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:50:56.067 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:51:17.285 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:51:17.306 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:51:17.312 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:51:17.313 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:51:17.319 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:51:17.321 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:51:17.351 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:51:17.351 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:51:17.359 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:51:17.362 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:51:17.365 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:51:17.369 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:51:17.369 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:51:17.372 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:51:17.373 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:51:17.382 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:51:17.396 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:51:17.400 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:51:17.404 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:51:17.405 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:51:17.480 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:51:17.481 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:51:17.813 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:57:57.935 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:57:57.947 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:57:57.950 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:57:57.952 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:57:57.956 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:57:57.958 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:57:57.976 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:57:57.976 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:57:57.981 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:57:57.983 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:57:57.986 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:57:57.988 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:57:57.988 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:57:57.992 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:57:57.993 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:57:57.999 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:57:58.006 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:57:58.009 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:57:58.012 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:57:58.013 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:57:58.069 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:57:58.069 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:57:58.212 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 08:58:11.410 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 08:58:11.421 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 08:58:11.424 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 08:58:11.425 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 08:58:11.429 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 08:58:11.430 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 08:58:11.451 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 08:58:11.451 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 08:58:11.461 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 08:58:11.464 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 08:58:11.469 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 08:58:11.472 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 08:58:11.472 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 08:58:11.475 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 08:58:11.476 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 08:58:11.482 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 08:58:11.489 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 08:58:11.492 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 08:58:11.496 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 08:58:11.497 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 08:58:11.555 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 08:58:11.555 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 08:58:11.695 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 20:34:43.661 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 20:34:43.676 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 20:34:43.680 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 20:34:43.681 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 20:34:43.686 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 20:34:43.687 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 20:34:43.709 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 20:34:43.709 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 20:34:43.716 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 20:34:43.718 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 20:34:43.721 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 20:34:43.723 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 20:34:43.724 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 20:34:43.726 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 20:34:43.727 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 20:34:43.734 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 20:34:43.741 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 20:34:43.745 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 20:34:43.748 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 20:34:43.750 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 20:34:43.809 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 20:34:43.810 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 20:34:43.946 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 20:45:56.330 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 20:45:56.346 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 20:45:56.351 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 20:45:56.354 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 20:45:56.360 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 20:45:56.362 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 20:45:56.388 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 20:45:56.389 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 20:45:56.396 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 20:45:56.397 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 20:45:56.401 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 20:45:56.403 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 20:45:56.403 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 20:45:56.406 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 20:45:56.407 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 20:45:56.414 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 20:45:56.421 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 20:45:56.424 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 20:45:56.428 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 20:45:56.429 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 20:45:56.488 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 20:45:56.488 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 20:45:56.620 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 21:02:14.268 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 21:02:14.282 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 21:02:14.285 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 21:02:14.286 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 21:02:14.291 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 21:02:14.292 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 21:02:14.313 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 21:02:14.314 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 21:02:14.320 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 21:02:14.322 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 21:02:14.325 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 21:02:14.328 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 21:02:14.328 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 21:02:14.330 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 21:02:14.332 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 21:02:14.341 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 21:02:14.349 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 21:02:14.352 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 21:02:14.356 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 21:02:14.357 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 21:02:14.415 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 21:02:14.415 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 21:02:14.552 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 21:05:54.718 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 21:05:54.730 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 21:05:54.732 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 21:05:54.733 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 21:05:54.737 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 21:05:54.739 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 21:05:54.758 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 21:05:54.758 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 21:05:54.764 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 21:05:54.765 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 21:05:54.769 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 21:05:54.771 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 21:05:54.771 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 21:05:54.773 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 21:05:54.774 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 21:05:54.781 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 21:05:54.788 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 21:05:54.791 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 21:05:54.794 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 21:05:54.795 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 21:05:54.858 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 21:05:54.858 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 21:05:54.989 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 21:08:05.824 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 21:08:05.836 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 21:08:05.839 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 21:08:05.840 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 21:08:05.844 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 21:08:05.845 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 21:08:05.864 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 21:08:05.864 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 21:08:05.870 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 21:08:05.872 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 21:08:05.875 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 21:08:05.877 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 21:08:05.878 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 21:08:05.880 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 21:08:05.881 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 21:08:05.887 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 21:08:05.895 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 21:08:05.898 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 21:08:05.901 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 21:08:05.902 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 21:08:05.960 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 21:08:05.961 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 21:08:06.096 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 21:09:16.605 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 21:09:16.619 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 21:09:16.622 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 21:09:16.624 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 21:09:16.628 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 21:09:16.630 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 21:09:16.651 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 21:09:16.651 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 21:09:16.657 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 21:09:16.659 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 21:09:16.664 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 21:09:16.667 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 21:09:16.667 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 21:09:16.671 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 21:09:16.672 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 21:09:16.680 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 21:09:16.692 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 21:09:16.695 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 21:09:16.699 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 21:09:16.700 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 21:09:16.769 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 21:09:16.769 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 21:09:16.902 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 21:16:05.978 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 21:16:05.992 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 21:16:05.995 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 21:16:05.996 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 21:16:06.001 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 21:16:06.002 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 21:16:06.022 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 21:16:06.022 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 21:16:06.028 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 21:16:06.031 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 21:16:06.035 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 21:16:06.037 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 21:16:06.037 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 21:16:06.040 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 21:16:06.041 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 21:16:06.048 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 21:16:06.055 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 21:16:06.058 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 21:16:06.061 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 21:16:06.062 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 21:16:06.120 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 21:16:06.120 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 21:16:06.252 [info] <0.44.0> Application argos_workers started on node nonode@nohost
+2020-09-24 21:16:49.355 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-09-24 21:16:49.367 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-09-24 21:16:49.370 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-09-24 21:16:49.371 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-09-24 21:16:49.376 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-09-24 21:16:49.378 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-09-24 21:16:49.397 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-09-24 21:16:49.397 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-09-24 21:16:49.403 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-09-24 21:16:49.405 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-09-24 21:16:49.409 [info] <0.44.0> Application gen_stage started on node nonode@nohost
+2020-09-24 21:16:49.411 [info] <0.44.0> Application broadway started on node nonode@nohost
+2020-09-24 21:16:49.412 [info] <0.44.0> Application broadway_rabbitmq started on node nonode@nohost
+2020-09-24 21:16:49.414 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-09-24 21:16:49.416 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-09-24 21:16:49.422 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-09-24 21:16:49.430 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-09-24 21:16:49.433 [info] <0.44.0> Application eex started on node nonode@nohost
+2020-09-24 21:16:49.437 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-09-24 21:16:49.438 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-09-24 21:16:49.502 [info] <0.44.0> Application jose started on node nonode@nohost
+2020-09-24 21:16:49.502 [info] <0.44.0> Application joken started on node nonode@nohost
+2020-09-24 21:16:49.640 [info] <0.44.0> Application argos_workers started on node nonode@nohost
