@@ -3,7 +3,6 @@ defmodule Worker.Watcher do
 
   alias Broadway.Message
 
-
   def start_link(_opts) do
     Rabbit.getQueue("watcher")
     Broadway.start_link(__MODULE__,
@@ -40,11 +39,14 @@ defmodule Worker.Watcher do
 
   @impl true
   def handle_message(_, %Message{data: data} = message, _) do
-
-    body = Poison.decode!(data)
-    watcher = Entity.Watcher.getById(body["id"], body["projectId"])
-    IO.inspect(watcher)
-    Rabbit.sendMessage("delay-exchange", "watcher", data)
+    messageData = Poison.decode!(~s(#{data}), %{keys: :atoms!, as: %Service.Watcher{}})
+    watcher = Service.Watcher.getById(messageData.id, messageData.projectId)
+    if Service.Watcher.hasNotChange(messageData, watcher) do
+      Rabbit.sendMessage("delay-exchange", "watcher", data, watcher.delay * 1000 )
+      {status, latency} = Service.Watcher.verifyStatus(watcher)
+      IO.inspect(status)
+      IO.inspect(latency/1000)
+    end
     message
   end
 

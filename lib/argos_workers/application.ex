@@ -6,10 +6,11 @@ defmodule ArgosWorkers.Application do
   use Application
 
   def start(_type, _args) do
+    IO.puts(Application.get_env(:argos_workers, :env))
     children = [
-      {Worker.Watcher, []},
-      ArgosWorkers.Repo,
-      ArgosWorkers.Redix,
+     ArgosWorkers.Redis,
+     # ArgosWorkers.Repo,
+     # {Worker.Watcher, []},
       # Starts a worker by calling: ArgosWorkers.Worker.start_link(arg)
       # {ArgosWorkers.Worker, arg}
     ]

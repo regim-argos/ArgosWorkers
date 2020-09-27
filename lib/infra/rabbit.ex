@@ -28,15 +28,15 @@ defmodule Rabbit do
     close(test.connection)
   end
 
-  def sendMessage(exchange, queueName, message) do
+  def sendMessage(exchange, queueName, message, delay) do
     amqp = getChannel()
-    AMQP.Basic.publish(amqp.channel, exchange, queueName, message, headers: [{"x-delay", 10000}], persistence: true)
+    AMQP.Basic.publish(amqp.channel, exchange, queueName, message, headers: [{"x-delay", delay}], persistence: true)
     close(amqp.connection)
   end
 
-  def sendMessage(exchange, queueName, message, channel) do
-    AMQP.Basic.publish(channel, exchange, queueName, message)
-  end
+  # def sendMessage(exchange, queueName, message, channel) do
+  #   AMQP.Basic.publish(channel, exchange, queueName, message)
+  # end
 
   def sendMultMessage(number) do
     amqp = getChannel()

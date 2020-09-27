@@ -23,4 +23,5 @@ erl_crash.dump
 argos_workers-*.tar
 
 logs
+log
 

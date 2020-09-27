@@ -1,6 +1,6 @@
-defmodule ArgosWorkers.Redix do
+defmodule ArgosWorkers.Redis do
   @pool_size 5
-
+  @behaviour Service.Behaviour.Cache
   def child_spec(_args) do
     # Specs for the Redix connections.
     children =
@@ -18,6 +18,24 @@ defmodule ArgosWorkers.Redix do
 
   def command(command) do
     Redix.command(:"redix_#{random_index()}", command)
+  end
+
+  @impl Service.Behaviour.Cache
+  @spec get(any) ::  {:ok, nil} | {:ok, String.t}
+  def get(key) do
+    reponse = command(["GET", key])
+    case reponse do
+      {:ok, nil} -> {:ok, nil}
+      {:ok, result} when is_binary(result)-> {:ok, result}
+      _ -> {:ok, nil}
+    end
+  end
+
+  @impl Service.Behaviour.Cache
+  @spec set(binary, binary) :: nil
+  def set(key, data) do
+    command(["SET", key, data])
+    nil
   end
 
   defp random_index() do
