@@ -15,9 +15,9 @@ defmodule Worker.Watcher do
             prefetch_count: 50,
           ],
           connection: [
-            host: "localhost",
-            username: "guest",
-            password: "guest"
+            host: Application.get_env(:argos_workers, :AMQP_HOST),
+            username: Application.get_env(:argos_workers, :AMQP_USER),
+            password: Application.get_env(:argos_workers, :AMQP_PASS)
           ],
         },
         concurrency: 1,
@@ -39,13 +39,24 @@ defmodule Worker.Watcher do
 
   @impl true
   def handle_message(_, %Message{data: data} = message, _) do
-    messageData = Poison.decode!(~s(#{data}), %{keys: :atoms!, as: %Service.Watcher{}})
+    messageData = Poison.decode!(~s(#{data}), %{keys: :atoms, as: %Service.Watcher{}})
     watcher = Service.Watcher.getById(messageData.id, messageData.projectId)
     if Service.Watcher.hasNotChange(messageData, watcher) do
       Rabbit.sendMessage("delay-exchange", "watcher", data, watcher.delay * 1000 )
-      {status, latency} = Service.Watcher.verifyStatus(watcher)
-      IO.inspect(status)
-      IO.inspect(latency/1000)
+      try do
+        {status, latency} = Service.Watcher.verifyStatus(watcher)
+        IO.puts("status: #{status}")
+        IO.puts("watcher.status: #{watcher.status}")
+        if status !== watcher.status do
+          IO.puts("entrou aqui")
+          Service.Watcher.notifyChange(messageData.id, messageData.projectId, status, DateTime.to_iso8601(DateTime.utc_now()))
+        end
+        IO.inspect(status)
+        IO.inspect(latency/1000)
+      rescue
+        _e in HTTPoison.Error -> %{status_code: 500}
+        e -> IO.inspect(e)
+      end
     end
     message
   end

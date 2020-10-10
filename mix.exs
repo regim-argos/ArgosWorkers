@@ -29,12 +29,10 @@ defmodule ArgosWorkers.MixProject do
       {:poison, "~> 4.0"},
       {:httpoison, "~> 1.6"},
       {:sweet_xml, "~> 0.6"},
-      {:ecto_sql, "~> 3.0"},
       {:joken, "~> 2.2"},
+      {:distillery, "~> 2.1"},
       {:broadway_rabbitmq, "~> 0.6.1"},
       {:amqp, "~> 1.0"},
-      {:postgrex, ">= 0.0.0"},
-      {:redix, ">= 0.0.0"},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
       {:mox, "~> 1.0", only: :test}
       # {:dep_from_hexpm, "~> 0.3.0"},

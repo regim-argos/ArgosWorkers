@@ -1,6 +1,12 @@
 defmodule Rabbit do
   def openConnection do
-    options = [host: "localhost", port: 5672, virtual_host: "/", username: "guest", password: "guest"]
+    options = [
+      host: Application.get_env(:argos_workers, :AMQP_HOST),
+      port: 5672,
+      virtual_host: "/",
+      username: Application.get_env(:argos_workers, :AMQP_USER),
+      password: Application.get_env(:argos_workers, :AMQP_PASS)
+    ]
     {:ok, connection} = AMQP.Connection.open(options)
     connection
   end

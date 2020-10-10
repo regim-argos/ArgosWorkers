@@ -2,14 +2,10 @@ use Mix.Config
 
 config :logger, handle_otp_reports: false
 
-config :argos_workers, ArgosWorkers.Repo,
-  database: "argos",
-  username: "postgres",
-  password: "docker",
-  hostname: "localhost"
+config :joken, default_signer: "secret"
 
-config :postgrex, :json_library, Poison
-
-config :argos_workers, ecto_repos: [ArgosWorkers.Repo]
+config :argos_workers, AMQP_HOST: "localhost"
+config :argos_workers, AMQP_USER: "guest"
+config :argos_workers, AMQP_PASS: "guest"
 
 import_config "#{Mix.env()}.exs"
