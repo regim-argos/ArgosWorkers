@@ -1,5 +1,6 @@
 use Mix.Config
 
+config :argos_workers, http_request: Http
 config :joken, default_signer: System.get_env("SECRET")
 
 config :argos_workers, AMQP_HOST: System.get_env("AMQP_HOST")
