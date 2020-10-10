@@ -32,7 +32,7 @@ defmodule Service.Watcher do
 
   def notifyChange(id, projectId, status, lastChange) do
     token = Token.generate_and_sign!(%{"id"=> "ADMIN"})
-    @http_request.put("https://#{@api_url}/v1/pvt/#{projectId}/changeStatus/#{id}",
+    @http_request.put("#{@api_url}/v1/pvt/#{projectId}/changeStatus/#{id}",
     [{
       "Content-Type", "application/json",
     },{
