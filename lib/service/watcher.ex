@@ -44,13 +44,14 @@ defmodule Service.Watcher do
   @spec getById(integer, integer) :: t
   def getById(id, projectId) do
     token = Token.generate_and_sign!(%{"id"=> "ADMIN"})
-    response = @http_request.get("https://#{@api_url}/v1/pvt/#{projectId}/watchers/#{id}",
+    IO.puts("#{@api_url}/v1/pvt/#{projectId}/watchers/#{id}")
+    response = @http_request.get("#{@api_url}/v1/pvt/#{projectId}/watchers/#{id}",
     [{
       "Content-Type", "application/json",
     },{
       "Authorization", "Bearer #{token}",
     }])
-    IO.puts(token)
+    IO.inspect(response)
     Poison.decode!(~s(#{response.body}), %{keys: :atoms, as: %Service.Watcher{}})
   end
 

@@ -41,6 +41,7 @@ defmodule Worker.Watcher do
   def handle_message(_, %Message{data: data} = message, _) do
     messageData = Poison.decode!(~s(#{data}), %{keys: :atoms, as: %Service.Watcher{}})
     watcher = Service.Watcher.getById(messageData.id, messageData.projectId)
+    IO.inspect(watcher)
     if Service.Watcher.hasNotChange(messageData, watcher) do
       Rabbit.sendMessage("delay-exchange", "watcher", data, watcher.delay * 1000 )
       try do
