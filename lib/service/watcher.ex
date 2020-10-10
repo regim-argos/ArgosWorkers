@@ -45,6 +45,7 @@ defmodule Service.Watcher do
   def getById(id, projectId) do
     token = Token.generate_and_sign!(%{"id"=> "ADMIN"})
     IO.puts("#{@api_url}/v1/pvt/#{projectId}/watchers/#{id}")
+    IO.puts(Application.get_env(:argos_workers, :SECRET))
     response = @http_request.get("#{@api_url}/v1/pvt/#{projectId}/watchers/#{id}",
     [{
       "Content-Type", "application/json",
