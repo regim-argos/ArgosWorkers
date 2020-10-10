@@ -24,6 +24,7 @@ defmodule Service.Watcher do
   ]
 
   @http_request Application.get_env(:argos_workers, :http_request)
+  @api_url Application.get_env(:argos_workers, :API_URL)
 
   def hasNotChange(messageData, dbData) do
     if messageData.delay === dbData.delay && dbData.active === true, do: true, else: false
@@ -31,7 +32,7 @@ defmodule Service.Watcher do
 
   def notifyChange(id, projectId, status, lastChange) do
     token = Token.generate_and_sign!(%{"id"=> "ADMIN"})
-    @http_request.put("http://localhost:3333/v1/pvt/#{projectId}/changeStatus/#{id}",
+    @http_request.put("https://#{@api_url}/v1/pvt/#{projectId}/changeStatus/#{id}",
     [{
       "Content-Type", "application/json",
     },{
@@ -43,7 +44,7 @@ defmodule Service.Watcher do
   @spec getById(integer, integer) :: t
   def getById(id, projectId) do
     token = Token.generate_and_sign!(%{"id"=> "ADMIN"})
-    response = @http_request.get("http://localhost:3333/v1/pvt/#{projectId}/watchers/#{id}",
+    response = @http_request.get("https://#{@api_url}/v1/pvt/#{projectId}/watchers/#{id}",
     [{
       "Content-Type", "application/json",
     },{

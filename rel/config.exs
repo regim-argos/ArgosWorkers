@@ -39,6 +39,15 @@ environment :prod do
   set include_src: false
   set cookie: :"L4r:B^ArNZ5?[dw)=Z?Lh4sZ!eIi.JO*./j!9Wcm<S>hP|l_6Sjlc;PyY}q`]GPy"
   set vm_args: "rel/vm.args"
+  set(
+    config_providers: [
+        {Distillery.Releases.Config.Providers.Elixir, ["${RELEASE_ROOT_DIR}/etc/config.exs"]}
+    ]
+  )
+  set overlays: [
+    {:copy, "config/config.exs", "etc/config.exs"},
+    {:copy, "config/prod.exs", "etc/prod.exs"}
+  ]
 end
 
 # You may define one or more releases in this file.
@@ -52,4 +61,3 @@ release :argos_workers do
     :runtime_tools
   ]
 end
-
